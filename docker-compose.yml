@@ -1,0 +1,18 @@
+version: '2.3'
+
+#docker-compose -f docker-compose.yml build
+#docker-compose -f docker-compose.yml run copernicus-esa /bin/bash
+
+services:
+  copernicus-esa:
+    build:
+      context: .
+      dockerfile: Dockerfile.dockerfile
+    image: copernicus-esa:latest
+    ports:
+      - 8888:8888
+    environment:
+     - JUPYTER_ENABLE_LAB=yes
+     - JUPYTER_TOKEN=copernicus-esa
+    volumes: 
+      - ./src:/home/jovyan/src
