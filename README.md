@@ -7,3 +7,7 @@ copernicus:
     - name: 'exampleUsername'
     - password: 'examplePassword'
 ```
+
+# Usage of JupyterLab
+
+1. JupyterLab URL: <http://localhost:8888/?token=copernicus-esa>
