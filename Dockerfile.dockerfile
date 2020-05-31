@@ -20,5 +20,4 @@ RUN conda --version
 #install needed libraries
 RUN pip install sentinelsat
 RUN conda install -c conda-forge rasterio
-RUN conda install -c conda-forge rasterio
 RUN conda install -c conda-forge netcdf4
