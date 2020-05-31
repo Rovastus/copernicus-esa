@@ -1,3 +1,4 @@
 {
-    "python.dataScience.jupyterServerURI": "http://localhost:8888/?token=copernicus-esa"
+    "python.dataScience.jupyterServerURI": "http://localhost:8888/?token=copernicus-esa",
+    "python.pythonPath": "C:\\Python39\\python.exe"
 }

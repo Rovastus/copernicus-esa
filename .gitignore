@@ -123,5 +123,6 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-#config file
+#config file + downloaded zip files
 src/data.yaml
+src/data/
